@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+
+    padding: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+
+  padding: 18px 28px;
+  border-radius: 50px;
+
+  box-shadow: 0 0 45px 25px rgba(255, 255, 255, 0.18);
+}
+
+p {
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+}
+
+.falling1 {
+  background-image: url("images/1.jpg");
+}
+
+.falling2 {
+  background-image: url("images/2.jpg");
+}
+
+.falling3 {
+  background-image: url("images/3.jpg");
+}
+
+.falling4 {
+  background-image: url("images/4.jpg");
+}
+
+.surprise {
+  background-image: url("images/5.jpg");
+}
+
+.flowers {
+  background-image: url("images/6.jpg");
+}
